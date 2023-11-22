@@ -1,0 +1,89 @@
+:root {
+  --primary-color: #2e2f42; /*Modal overlay, main color*/
+  --secondary-color: #434455; /*Text, secondary color*/
+  --accent-color: #4d5ae5; /*Primary Brand, accent color*/
+  --focus-color: #ffffff; /*White focus, background*/
+  --secondary-background-color: #e7e9fc; /*Accent, bgc of header*/
+  --passive-background-color: #f4f4fd; /*Light, button bgc*/
+  --active-background-color: #404bbf; /*Pressed state, active bgc*/
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--background-color);
+  color: var(--primary-color);
+}
+.page-logo {
+  font-size: 18px;
+  font-weight: 800;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0, 54;
+}
+.logo-first-part {
+  color: var(--accent-color);
+}
+.logo-second-part {
+  color: var(--primary-color);
+}
+ul {
+  list-style: none;
+}
+button {
+  cursor: pointer;
+  color: var(--accent-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid var(--secondary-background-color);
+  background-color: var(--passive-background-color);
+}
+a:hover,
+a:focus {
+  color: var(--active-background-color);
+}
+button:hover,
+button:focus {
+  color: var(--focus-color);
+  background-color: var(--active-background-color);
+}
+.page-header {
+  background: var(--secondary-background-color);
+}
+.menu-link {
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.contact-list-link {
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-style: normal;
+}
+.section-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--primary-color);
+  line-height: 1.2;
+}
+.section-text {
+  font-size: 16px;
+  color: var(--secondary-color);
+  line-height: 1.5;
+}
+.footer {
+  background-color: var(--primary-color);
+}
+.footer .navigation .page-logo .logo-second-part {
+  color: var(--passive-background-color);
+}
+.text {
+  font-size: 16px;
+  color: var(--passive-background-color);
+}
+/* .block {
+  width: 360px;
+  height: 420px;
+} */
