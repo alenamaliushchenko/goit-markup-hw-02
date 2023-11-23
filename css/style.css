@@ -7,7 +7,6 @@
   --passive-background-color: #f4f4fd; /*Light, button bgc*/
   --active-background-color: #404bbf; /*Pressed state, active bgc*/
 }
-
 body {
   font-family: "Roboto", sans-serif;
   color: var(--secondary-color);
@@ -18,7 +17,7 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  letter-spacing: 0.03 em;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--accent-color);
   text-decoration: none;
@@ -44,6 +43,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
+}
+.list-item {
+  background-color: #ffffff;
 }
 .menu-link {
   font-weight: 500;
@@ -93,6 +95,10 @@ button:focus {
   color: var(--focus-color);
   background-color: var(--active-background-color);
 }
+.button {
+  background-color: var(--accent-color);
+  color: var(--focus-color);
+}
 .block-title {
   font-weight: 500;
   font-size: 20px;
@@ -110,7 +116,7 @@ button:focus {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
   text-transform: capitalize;
   color: var(--primary-color);
 }
