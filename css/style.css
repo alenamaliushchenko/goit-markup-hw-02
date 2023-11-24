@@ -25,6 +25,7 @@ button:focus {
   background-color: var(--active-background-color);
 }
 .button {
+  font-family: "Roboto", sans-serif;
   background-color: var(--accent-color);
   color: var(--focus-color);
 }
