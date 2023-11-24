@@ -18,11 +18,10 @@ body {
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
-  letter-spacing: 0.03 em;
+  letter-spacing: 0.03em;
   text-decoration: none;
   text-transform: uppercase;
   color: var(--accent-color);
-  letter-spacing: 0.54;
 }
 .logo-second-part {
   color: var(--primary-color);
@@ -43,8 +42,12 @@ button {
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
+  letter-spacing: 0.04em;
   border: 1px solid var(--secondary-background-color);
   background-color: var(--passive-background-color);
+}
+.btn {
+  font-family: "Roboto", sans-serif;
 }
 a:hover,
 a:focus {
@@ -103,7 +106,16 @@ button:focus {
   color: var(--passive-background-color);
   letter-spacing: 0.02em;
 }
-/* .block {
-  width: 360px;
-  height: 420px;
-} */
+.block-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-color);
+}
+.block-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
